@@ -4,3 +4,92 @@ images_resized1/*
 images_resized/*
 train/*
 test/*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm / VS Code settings
+.idea/
+.vscode/
+
+# mypy, pyre, pytype
+.mypy_cache/
+.pyre/
+.pytype/
+
+# profiling
+.prof
+
+# logs
+*.log
+
+# dotenv
+.env
+.env.*
+
+# Streamlit cache
+.streamlit/
+
+# Images / plots (optional)
+*.png
+*.jpg
+*.jpeg
+
+# Model files (optional - if you don't want to commit large models)
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+
+# System files
+.DS_Store
+Thumbs.db
