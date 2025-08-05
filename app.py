@@ -4,9 +4,9 @@ import numpy as np
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model(r'C:\Users\Dell\OneDrive\Desktop\Soil-Type-Classification\simple_cnn_soil_classifier.keras')  # Change filename as needed
-# Replace with your actual class names:
-CLASS_NAMES = ['class1', 'class2', 'class3','class4','class5']  # <-- Change this!
+model = tf.keras.models.load_model(r'C:\Users\Dell\OneDrive\Desktop\Soil-Type-Classification\simple_cnn_soil_classifier.keras')  
+
+CLASS_NAMES = ['Black Soil', 'Cinder Soil', 'Laterite Soil', 'Peat Soil', 'Yellow Soil']
 
 st.title("Soil Type Classifier")
 
