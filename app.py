@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model(r'C:\Users\thund\Downloads\Telegram Desktop\Soil-Type-Classification\soil buddy ml\soil_model.keras')  
+model = tf.keras.models.load_model(r'soil_model.keras')  
 
 CLASS_NAMES = ['Black Soil', 'Cinder Soil', 'Laterite Soil', 'Peat Soil', 'Yellow Soil']
 
